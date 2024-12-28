@@ -54,7 +54,7 @@
 }
 
 #textcolor2{
-    color:black
+    color:#404040
 }
 
 .flexS{
@@ -234,7 +234,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 3000px;
+    height: 4000px;
 
 
 }
@@ -435,7 +435,7 @@ main {
 
 .secondSection{
     display: flex;
-    flex: 1;
+    flex: 2;
     padding: 8px;
     width: 65%;
     margin-top: 300px;
@@ -446,3 +446,52 @@ main {
 
 
 
+.insightRow{
+    height: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 15px;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+.insightRow img{
+    flex: 1;
+}
+
+.insightRow h1{
+    flex: 3;   
+    text-align: center;
+    margin: 0;
+}
+
+.insightRow span{
+    flex: 12;
+    border-bottom:solid 1px #E2B00D ;
+}
+
+.insightRow a{
+    flex: 2;
+    clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 140%, 0% 55%);
+    height: 50%;
+    align-self: flex-end;
+    text-align: center;
+    align-content: center;
+    text-decoration:none;
+    color: #404040;
+    font-size: 14px;
+
+}
+
+.insightRow a img{
+    left: -10px;
+    position: relative;
+}
+
+
+
+h1{
+    letter-spacing: 2px;
+    font-size: 32px;
+}

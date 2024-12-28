@@ -28,18 +28,24 @@
     background-image: url("https://s3-alpha-sig.figma.com/img/d89a/4efa/98d0ab2c4a7d4021635490545e2ede98?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RaUzluk71ZDwXtNi-68Shgl2OQDhyo8oGNC~nkC5C5FXZOQ9KBfHGM~wJongt2D1PrFol8qdGujYMRCfFac4H7neAkXP8UX-Ksmr89UBjFPD4C46OXuMTa~3p7AH4JkFkw1q-Y9zryfvB3xfgM1WRbv35zmpTbAEe1dyO04i7rtcN01TNGNV0npddA69FLYZsSXlQ3Yfxd7PeUzdUAAAGFGD9SyIjW9m83xdMz6uwI9gKcCeOk5TzZQOiDtiMJ0Md~y-Na-ygiWpdbcsMurdKy3cEyioMK-DkZmPwQfeCbtGHlWp7sGEO9gHt6ZPyTJi-fP0QsS2MpWWLlFtN4N5sw__");
 }
 
+#img8{
+    background-image: url("https://s3-alpha-sig.figma.com/img/1d93/9f5e/91da93a4dc75c07c5f635f3a1d010597?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Jd9Q2~jgNDrMJ7SMaybCycQwmWYbWZNebIJjp5~QM~U~Y7LbKOC7i4HY6IflKHXt0bhAmJflh~donajc8bj47lY8eSWhRL7szJRBOu4fXiVTTZbSGmklJtKFIEmNmDCQvOcOOCsWKvT~zvO-zGmMANgReCI6A6iTwBz1zojvN4v9q36ztvoaz8u~u~dUx6ZoLu0sF8TWqO3zhXooYrl3P3QrYODZsnvHn4vUb36jspQw4xGWbQxmPeRypv1nAAiR8ErT~8DhTYMAwIFbvACDOEuq-X7~epActErWBmD2OA7MeS2id6yDGPGtGz5D7FSrIUr1ysI6FiT4yVsI2P47fg__");
+}
+
 
 #color1{
     background-color: #377D22;
 }
 #color2{
     background-color: #21C8FC;
+    border-color: #21C8FC;
 }
 #color3{
     background-color: #F202D5;
 }
 #color4{
     background-color: #55EBB1;
+    border-color: #55EBB1;
 }
 #color5{
     background-color: #EA5619;
@@ -74,7 +80,7 @@ letter-spacing:1px;
  margin: 0;
  padding: 0;
  text-align: right;
- background-color: #FBF8FF;
+ background: #FBF8FF;
  overflow: visible;
 }
 
@@ -217,11 +223,12 @@ header{
 }
 
 .gradient{
-    height: 100px;
+    height: 50px;
     background: linear-gradient(to bottom, #EEE6FB, #FBF8FF);
     display: flex;
     position: sticky;
     top: 114px;
+    z-index: 9; 
 
 
 }
@@ -418,6 +425,7 @@ main {
     display: flex;
     height: 325px;
     flex-direction:reverse ;
+    margin-bottom: 130px;
 }
 
 .ArticleRow article{
@@ -461,8 +469,7 @@ main {
 }
 
 .insightRow h1{
-    flex: 3;   
-    text-align: center;
+    flex: 4;   
     margin: 0;
 }
 
@@ -494,4 +501,41 @@ main {
 h1{
     letter-spacing: 2px;
     font-size: 32px;
+}
+
+
+footer{
+    height: 960px;
+    width: 100%;
+    background-color: #5806C7;
+    display: flex;
+    z-index: 14;
+    position: relative;
+    flex-direction: column;
+}
+
+.firstFooterRow{
+    display: flex;
+    flex: 1;
+}
+
+.firstFooterRow nav{
+    background-color: #FBF8FF;
+    flex:4 ;
+}
+
+.secondFooterRow{
+    display: flex;
+
+    flex: 8;
+}
+.thirdFooterRow{
+    display: flex;
+
+    flex: 1;
+    background-color: black ;
+}
+
+footer div{
+    flex: 1;
 }

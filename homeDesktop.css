@@ -63,15 +63,19 @@
     color:#404040
 }
 
-.flexS{
-    flex:1.5 !important
-}
 
 
 @font-face {
     font-family: "Mikhmoret Rounded DL 1.1 AAA Regular";
     src: url('./assets//font/Mikhmoret.ttf') format('truetype');
 }
+
+
+.flexS{
+    flex:1.5 !important
+}
+
+
 
 body{
 font-family: "Mikhmoret Rounded DL 1.1 AAA Regular";

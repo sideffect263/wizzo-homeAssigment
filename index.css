@@ -241,7 +241,8 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 4000px;
+    height: 3500px;
+    margin-top: 60px;
 
 
 }
@@ -477,7 +478,7 @@ main {
 }
 
 .insightRow span{
-    flex: 12;
+    flex: 15;
     border-bottom:solid 1px #E2B00D ;
 }
 

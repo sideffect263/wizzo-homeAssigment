@@ -122,7 +122,7 @@ header{
 
     main section{
         margin: 20px;
-        flex: 1;
+        flex: 2;
         background-image: url("https://s3-alpha-sig.figma.com/img/fce8/1dc3/6dbc484df5f5df58c9264a70e58b8455?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=L6kbrg83~ZaQzRMVVD5ZMafLy2csExupVO-FBzeXxSG0b88hiyR996QLOVZCUF9018ts24EAXe~dUNN1CubmZlNaQYZJpm3ChbCQvZksM8taKutd6XP2CEnA4Vab-mALg~OA1HwBgTu1sF~fpWFREWkeZ5EGjg1OpmNWDgjdt1qJrZ4FwCsKD4rTX1NlJtU~UZcHFsJX0el3ZPHWDMXrSyLp6-KI~XOYFxuzml1M6NgXdgZt8USO2hzx1dwH3nFRpZojl6IE4IlW2OvrV5OS~uALyepjpb5j6uBEivE41W798Fs9G-9~eoNNfo5Q36QJhdPC9Vzpm5rm7eh1chi8UA__");
         object-fit: contain;
         background-size: cover;
@@ -165,7 +165,7 @@ header{
 }
 
 .textDiv h3{
-    font-size: 10px;
+    font-size: 14px;
     text-align: right;
     font-weight: 400;
     direction: rtl; 
@@ -174,14 +174,20 @@ header{
 
 }
 
+
+
 .insight{
-    height: 14%;
-    width: 43%;
+    height: 25%;
+    width: 51%;
     clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 140%, 0% 55%);
     justify-content: center;
     align-items: center;
     display: flex;
 
+}
+
+.mainArticle .insight{
+    height: 15%;
 }
 
 .insight h4{
@@ -207,6 +213,14 @@ header{
         display: flex;
         flex: 10;
         font-size: 10px;
+        justify-content: space-around;
+    }
+
+    .mainArticle .imgDiv{
+        flex: 4;
+    }
+    .mainArticle .textDiv{
+        flex: 3;
     }
 
     .mainArticle h1{
@@ -231,7 +245,13 @@ header{
     .mainArticle .insight{
         font-size: 14px;
     }
-    
 
+    .secondSection{
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
 
-    
+    .sectionHeadline{
+        flex: 1;
+    }

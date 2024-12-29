@@ -623,3 +623,275 @@ footer{
 footer div{
     flex: 1;
 }
+
+
+
+
+
+
+
+#mobileHeader{
+    display: none;
+}
+
+#mobileMain{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 450px) {
+    #mobileHeader{
+        display: flex;
+    }
+
+    #desktopHeader{
+        display: none;
+    }
+
+    #mobileMain{
+        display: flex;
+    }
+    #desktopMain{
+        display: none;
+    }
+
+    .gradient{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+    
+body{
+    font-family: "Mikhmoret Rounded DL 1.1 AAA Regular";
+    letter-spacing:1px;
+     flex-direction: column;
+     margin: 0;
+     padding: 0;
+     text-align: right;
+     background: #FBF8FF;
+     overflow: visible;
+    }
+
+    
+header{
+    display: flex;
+    top: 0;
+    height: 70px;
+    position: sticky;
+    flex-direction: row-reverse;
+    z-index: 15;
+    background-color: #5806C7;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+    header img{
+        flex: 1;
+    }
+
+    header span{
+        flex: 4;
+    }
+
+    header img:first-child{
+        padding: 8px;
+        flex: 2;
+    }
+
+    header img:last-child{
+        height: 15px;
+    }
+
+
+    main{
+        height: 1500px;
+        background-color: #FBF8FF;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px
+    }
+
+    main section{
+        flex: 2;
+        object-fit: contain;
+        background-size: cover;
+        width:-webkit-fill-available;
+        padding: 10px;
+        margin: 6px;
+    }
+
+    #mobileMain section img{
+        object-fit: contain;
+        background-size: cover;
+        width:-webkit-fill-available;
+    }
+
+    
+
+.imgDiv{
+    justify-content: flex-end;
+    background-position: center;
+    align-items: flex-end;
+    display: flex;
+    flex: 12;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 7px;
+    
+
+}
+
+
+
+.textDiv{
+    flex: 15;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.textDiv h2{
+    font-size: 18px;
+    text-align: right;
+    font-weight: 400;
+    margin: 0;
+
+}
+
+.textDiv h3{
+    font-size: 14px;
+    text-align: right;
+    font-weight: 400;
+    direction: rtl; 
+    margin: 0;
+
+}
+
+
+
+.insight{
+    height: 25%;
+    width: 51%;
+    clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 140%, 0% 55%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.mainArticle .insight{
+    height: 15%;
+}
+
+.arti{
+    flex-direction: row-reverse;
+    flex: 3;
+}
+
+.insight h4{
+    color: white;
+    margin: 0;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+    article{
+        margin: 6px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 1;
+    background-color: white;
+    }
+
+    .mainArticle{
+        flex-direction: column  ;
+        display: flex;
+        flex: 10;
+        font-size: 10px;
+        justify-content: space-around;
+    }
+
+    .mainArticle .imgDiv{
+        flex: 4;
+    }
+    .mainArticle .textDiv{
+        flex: 3;
+    }
+
+    .mainArticle h1{
+        font-size: 20px;
+
+    }
+
+    .mainArticle div h4{
+        font-size: 14px;
+
+    }
+
+    .mainArticle h2{
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .mainArticle h3{
+        font-size: 14px;
+    }
+
+    .mainArticle .insight{
+        font-size: 14px;
+    }
+
+    #mobileSection{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 40px;
+
+    }
+
+    .insightRow h1{
+        flex: 15;
+    }
+
+    .insightRow span{
+        border: none;
+        flex: 10;
+    }
+
+    .insightRow a{
+        flex:  3;
+        clip-path: polygon(35% 0%, 100% 0%, 100% 100%, 0% 140%, 0% 45%);
+    }
+
+    .ArticleRow{
+        flex-direction: column;
+    }
+
+    .insightRow a img:first-child{
+        left: 2.5px;
+    }
+
+    .insightRow a img:last-child{
+        left: -2px;
+    }
+
+
+}

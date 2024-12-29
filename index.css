@@ -800,7 +800,7 @@ header{
 
 .arti{
     flex-direction: row-reverse;
-    flex: 3;
+    flex: 2.5;
 }
 
 .insight h4{
@@ -883,6 +883,11 @@ header{
 
     .ArticleRow{
         flex-direction: column;
+        margin: 0;
+    }
+
+    .secondSection .ArticleRow{
+        margin: 0;
     }
 
     .insightRow a img:first-child{
